@@ -3,7 +3,7 @@ print("Student Information")
 print("")
 name = str(input("Enter your Name: "))
 snum = int(input("Enter your Student Number: "))
-YnS = int(input("Enter your Year and Section: "))
+YnS = str(input("Enter your Year and Section: "))
 
 print("")
 print ('GRADE SUBJECT')
@@ -19,10 +19,6 @@ sub6 = int(input("Arts : "))
 
 def calculate_average(sub1, sub2, sub3, sub4, sub5, sub6):
     """
-    Calculate the average of 6 subjects.
-    
-    Args:
-        sub1, sub2, sub3, sub4, sub5, sub6: Score for each subject
     
     Returns:
         float: The average score
@@ -31,6 +27,7 @@ def calculate_average(sub1, sub2, sub3, sub4, sub5, sub6):
     average = total / 6
     return average
 
+average = calculate_average(sub1, sub2, sub3, sub4, sub5, sub6)
 print(f"Average: {average}")
 
 if average < 70:
