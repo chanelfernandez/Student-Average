@@ -1,14 +1,14 @@
 print("")
 print("Student Information")
 print("")
-name = str(input("Enter your name: "))
-snum = int(input("Enter your student number: "))
-YnS = int(input("Enter your year and section: "))
+name = str(input("Enter your Name: "))
+snum = int(input("Enter your Student Number: "))
+YnS = int(input("Enter your Year and Section: "))
 
 print("")
 print ('GRADE SUBJECT')
 print("")
-print ("Enter your grades per subject")
+print ("Enter your Grades per Subject")
 
 sub1 = int(input("English : "))
 sub2 = int(input("Science : "))
