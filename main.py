@@ -1,13 +1,13 @@
-print("")
+print("==" * 30)
 print("Student Information")
-print("")
+print("==" * 30)
 name = str(input("Enter your Name: "))
 snum = int(input("Enter your Student Number: "))
 YnS = str(input("Enter your Year and Section: "))
 
-print("")
+print("==" * 30)
 print ('GRADE SUBJECT')
-print("")
+print("==" * 30)
 print ("Enter your Grades per Subject")
 
 sub1 = int(input("English : "))
